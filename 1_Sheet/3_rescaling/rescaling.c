@@ -11,7 +11,7 @@
  a = 1e30;
  b = 1.0;
  
- res = sqrt(a + b*b/a)*sqrt(a);
+ res = sqrt(a + b*b/a)*sqrt(a); // factorising a 
  fprintf(stdout, "standard method res: %e \n", res);
  
  return 0;
