@@ -23,3 +23,4 @@ int main() {
 }
 
 // 2: Since each iteration involves some kind of exponential, pow(2,15) already exceeds memory. 
+// An/2^n will be aproximately 0

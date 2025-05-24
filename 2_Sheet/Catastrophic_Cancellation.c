@@ -102,7 +102,6 @@ int main() {
                 printf("x2 = %f\n", x2); 
                 printf("method c was used\n");
             }
-            
             break;
         default:
             printf("Invalid choice.\n");

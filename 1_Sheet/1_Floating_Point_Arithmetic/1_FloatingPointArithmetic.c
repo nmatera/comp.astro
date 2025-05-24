@@ -5,7 +5,7 @@
 #define PI 3.141592653589793
 #define TRUE_SUM (PI * PI / 6.0)
 
-float sum_forward(int k) {
+double sum_forward(int k) {
     double sum = 0.0;
     for (int n = 1; n <= k; n++) {
         sum += 1.0 / n / n;
@@ -13,7 +13,7 @@ float sum_forward(int k) {
     return sum;
 }
 
-float sum_backward(int k) {
+double sum_backward(int k) {
     double sum = 0.0;
     for (int n = k; n >= 1; n--) {
         sum += 1.0 / n / n;
