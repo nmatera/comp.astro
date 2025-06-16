@@ -7,7 +7,7 @@ double f2(double xi, double w, double z, double n);
 
 int main() {
     // Polytropic index
-    double n = 1.5;
+    double n = 1.5; // 0.5, 2.5
 
     // Initial conditions
     double xi = 1e-6; // small value to avoid division by zero
