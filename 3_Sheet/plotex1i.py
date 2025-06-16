@@ -6,7 +6,7 @@ df = pd.read_csv("orbit.csv")
 for body in ['M', 'H']:
     for method in ['fixed', 'newton']:
         subset = df[(df['body'] == body) & (df['method'] == method)]
-        plt.plot(subset['x'], subset['y'], label=f'{body}-{method}')
+        plt.scatter(subset['x'], subset['y'], label=f'{body}-{method}', s=5)
     plt.axis('equal')
     plt.legend()
     if body == 'M':
